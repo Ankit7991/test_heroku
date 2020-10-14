@@ -99,9 +99,12 @@ section.intro-wrapper .info-div {
   transition: 0.4s;
   position: absolute;
   bottom: 10px;
-  right: 10px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   color: white;
   font-size: 12px;
+  padding: 10px;
 }
 
 section.intro-wrapper .intro {

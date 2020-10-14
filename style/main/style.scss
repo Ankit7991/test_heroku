@@ -131,9 +131,11 @@ section.intro-wrapper {
 		transition: 0.4s;
 		position: absolute;
 		bottom: 10px;
-		right: 10px;
+		left: 50%;
+		transform: translate(-50%, 0);
 		color: white;
 		font-size: 12px;
+		padding: 10px;
 	}
 
   .intro {
