@@ -94,6 +94,15 @@ section.intro-wrapper {
   height: 100vh;
 }
 
+section.intro-wrapper .info-div {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+}
+
 section.intro-wrapper .intro {
   width: 100%;
   display: -webkit-box;

@@ -125,7 +125,15 @@ section.intro-wrapper {
   @include center();
   flex-flow: column;
   position: relative;
-  height: 100vh;
+	height: 100vh;	
+		
+	.info-div {
+		transition: 0.4s;
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		color: white;
+	}
 
   .intro {
     width: 100%;
@@ -138,7 +146,8 @@ section.intro-wrapper {
     font-size: 20px;
     letter-spacing: 2px;
     font-weight: lighter;
-    transition: font-size 0.3s;
+		transition: font-size 0.3s;
+
 
     .intro-typing-wrapper {
       // border: 1px solid white;

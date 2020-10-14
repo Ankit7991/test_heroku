@@ -97,9 +97,14 @@ only screen and (min-width: 786px){
 
 
 @media only screen and (min-width: 480px) and (max-width: 767px){
-  body{
-    // border: 10px solid red;
-  }
+	section.intro-wrapper {
+			
+		.info-div {
+			font-size: 10px;
+		}
+	}
+
+
   .bar-title{
     font-size: 70% !important;
   }

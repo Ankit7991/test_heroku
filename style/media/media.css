@@ -104,6 +104,9 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  section.intro-wrapper .info-div {
+    font-size: 10px;
+  }
   .bar-title {
     font-size: 70% !important;
   }
