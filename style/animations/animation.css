@@ -1,0 +1,469 @@
+.intro-wrapper span.button-animated {
+  color: white !important;
+}
+
+.intro-wrapper span.button-animated:before {
+  -webkit-animation: borderToRight 0.8s forwards ease-in;
+          animation: borderToRight 0.8s forwards ease-in;
+}
+
+@-webkit-keyframes borderToRight {
+  99% {
+    width: 100%;
+    border-right: 0px solid transparent;
+    border-radius: 10px 10px 0 0;
+  }
+  100% {
+    width: 100%;
+    border-right: 3px solid #d1d1d1;
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+@keyframes borderToRight {
+  99% {
+    width: 100%;
+    border-right: 0px solid transparent;
+    border-radius: 10px 10px 0 0;
+  }
+  100% {
+    width: 100%;
+    border-right: 3px solid #d1d1d1;
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+.intro-wrapper span.button-animated:after {
+  -webkit-animation: borderToLeft 0.8s forwards;
+          animation: borderToLeft 0.8s forwards;
+}
+
+@-webkit-keyframes borderToLeft {
+  99% {
+    width: 100%;
+    border-left: 0px solid transparent;
+    border-radius: 0 0 10px 10px;
+  }
+  100% {
+    width: 100%;
+    border-left: 3px solid #d1d1d1;
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@keyframes borderToLeft {
+  99% {
+    width: 100%;
+    border-left: 0px solid transparent;
+    border-radius: 0 0 10px 10px;
+  }
+  100% {
+    width: 100%;
+    border-left: 3px solid #d1d1d1;
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+.bar-main {
+  /*
+  
+  
+  animation section
+  
+  
+  */
+}
+
+.bar-main span {
+  color: white !important;
+}
+
+@-webkit-keyframes intoView {
+  60% {
+    left: 50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes intoView {
+  60% {
+    left: 50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes giveMeWidth {
+  60% {
+    width: 0;
+    left: 70%;
+  }
+  100% {
+    width: 80%;
+    left: 20%;
+  }
+}
+
+@keyframes giveMeWidth {
+  60% {
+    width: 0;
+    left: 70%;
+  }
+  100% {
+    width: 80%;
+    left: 20%;
+  }
+}
+
+@-webkit-keyframes shine {
+  100% {
+    left: 40px;
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+  }
+}
+
+@keyframes shine {
+  100% {
+    left: 40px;
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+  }
+}
+
+.bar-main .html-value-wrapper-animate .bar-title {
+  -webkit-animation: intoView 1s ease-out forwards;
+          animation: intoView 1s ease-out forwards;
+}
+
+.bar-main .html-value-wrapper-animate .bar-value {
+  -webkit-animation: giveMeWidth 1s ease-out forwards;
+          animation: giveMeWidth 1s ease-out forwards;
+}
+
+.bar-main .html-value-wrapper-animate .bar-value .bar-value-meter:before {
+  -webkit-animation: shine 1s forwards;
+          animation: shine 1s forwards;
+}
+
+.bar-main .html-value-wrapper-animate .bar-value .html-bar-value-animated {
+  -webkit-animation: nineZero 1.4s 1.4s forwards ease-out;
+          animation: nineZero 1.4s 1.4s forwards ease-out;
+}
+
+@-webkit-keyframes nineZero {
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes nineZero {
+  100% {
+    width: 90%;
+  }
+}
+
+.bar-main .css-value-wrapper-animate .bar-title {
+  -webkit-animation: intoView 1s ease-out 0.2s forwards;
+          animation: intoView 1s ease-out 0.2s forwards;
+}
+
+.bar-main .css-value-wrapper-animate .bar-value {
+  -webkit-animation: giveMeWidth 1s ease-out 0.2s forwards;
+          animation: giveMeWidth 1s ease-out 0.2s forwards;
+}
+
+.bar-main .css-value-wrapper-animate .bar-value .bar-value-meter:before {
+  -webkit-animation: shine 1s forwards;
+          animation: shine 1s forwards;
+}
+
+.bar-main .css-value-wrapper-animate .bar-value .css-bar-value-animated {
+  -webkit-animation: eightZero 1.4s 1.6s forwards ease-out;
+          animation: eightZero 1.4s 1.6s forwards ease-out;
+}
+
+@-webkit-keyframes eightZero {
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes eightZero {
+  100% {
+    width: 80%;
+  }
+}
+
+.bar-main .js-value-wrapper-animate .bar-title {
+  -webkit-animation: intoView 1s ease-out 0.4s forwards;
+          animation: intoView 1s ease-out 0.4s forwards;
+}
+
+.bar-main .js-value-wrapper-animate .bar-value {
+  -webkit-animation: giveMeWidth 1s ease-out 0.4s forwards;
+          animation: giveMeWidth 1s ease-out 0.4s forwards;
+}
+
+.bar-main .js-value-wrapper-animate .bar-value .bar-value-meter:before {
+  -webkit-animation: shine 1s forwards;
+          animation: shine 1s forwards;
+}
+
+.bar-main .js-value-wrapper-animate .bar-value .js-bar-value-animated {
+  -webkit-animation: sixFive 1.4s 1.8s forwards ease-out;
+          animation: sixFive 1.4s 1.8s forwards ease-out;
+}
+
+@-webkit-keyframes sixFive {
+  100% {
+    width: 65%;
+  }
+}
+
+@keyframes sixFive {
+  100% {
+    width: 65%;
+  }
+}
+
+.bar-main .php-value-wrapper-animate .bar-title {
+  -webkit-animation: intoView 1s ease-out 0.6s forwards;
+          animation: intoView 1s ease-out 0.6s forwards;
+}
+
+.bar-main .php-value-wrapper-animate .bar-value {
+  -webkit-animation: giveMeWidth 1s ease-out 0.6s forwards;
+          animation: giveMeWidth 1s ease-out 0.6s forwards;
+}
+
+.bar-main .php-value-wrapper-animate .bar-value .bar-value-meter:before {
+  -webkit-animation: shine 1s forwards;
+          animation: shine 1s forwards;
+}
+
+.bar-main .php-value-wrapper-animate .bar-value .php-bar-value-animated {
+  -webkit-animation: twoFive 1.4s 2.0s forwards ease-out;
+          animation: twoFive 1.4s 2.0s forwards ease-out;
+}
+
+@-webkit-keyframes twoFive {
+  100% {
+    width: 25%;
+  }
+}
+
+@keyframes twoFive {
+  100% {
+    width: 25%;
+  }
+}
+
+.bar-main .bootstrap-value-wrapper-animate .bar-title {
+  -webkit-animation: intoView 1s ease-out 0.8s forwards;
+          animation: intoView 1s ease-out 0.8s forwards;
+}
+
+.bar-main .bootstrap-value-wrapper-animate .bar-value {
+  -webkit-animation: giveMeWidth 1s ease-out 0.8s forwards;
+          animation: giveMeWidth 1s ease-out 0.8s forwards;
+}
+
+.bar-main .bootstrap-value-wrapper-animate .bar-value .bar-value-meter:before {
+  -webkit-animation: shine 1s forwards;
+          animation: shine 1s forwards;
+}
+
+.bar-main .bootstrap-value-wrapper-animate .bar-value .bootstrap-bar-value-animated {
+  -webkit-animation: fourfive 1.4s 2.2s forwards ease-out;
+          animation: fourfive 1.4s 2.2s forwards ease-out;
+}
+
+@-webkit-keyframes fourfive {
+  100% {
+    width: 45%;
+  }
+}
+
+@keyframes fourfive {
+  100% {
+    width: 45%;
+  }
+}
+
+.bar-main .jquery-value-wrapper-animate .bar-title {
+  -webkit-animation: intoView 1s ease-out 1.0s forwards;
+          animation: intoView 1s ease-out 1.0s forwards;
+}
+
+.bar-main .jquery-value-wrapper-animate .bar-value {
+  -webkit-animation: giveMeWidth 1s ease-out 1.0s forwards;
+          animation: giveMeWidth 1s ease-out 1.0s forwards;
+}
+
+.bar-main .jquery-value-wrapper-animate .bar-value .bar-value-meter:before {
+  -webkit-animation: shine 1s forwards;
+          animation: shine 1s forwards;
+}
+
+.bar-main .jquery-value-wrapper-animate .bar-value .jquery-bar-value-animated {
+  -webkit-animation: towZero 1.4s 2.4s forwards ease-out;
+          animation: towZero 1.4s 2.4s forwards ease-out;
+}
+
+@-webkit-keyframes towZero {
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes towZero {
+  100% {
+    width: 30%;
+  }
+}
+
+.bar-main .ui-value-wrapper-animate .bar-title {
+  -webkit-animation: intoView 1s ease-out 1.2s forwards;
+          animation: intoView 1s ease-out 1.2s forwards;
+}
+
+.bar-main .ui-value-wrapper-animate .bar-value {
+  -webkit-animation: giveMeWidth 1s ease-out 1.2s forwards;
+          animation: giveMeWidth 1s ease-out 1.2s forwards;
+}
+
+.bar-main .ui-value-wrapper-animate .bar-value .bar-value-meter:before {
+  -webkit-animation: shine 1s forwards;
+          animation: shine 1s forwards;
+}
+
+.bar-main .ui-value-wrapper-animate .bar-value .ui-bar-value-animated {
+  -webkit-animation: fiveZero 1.4s 2.6s forwards ease-out;
+          animation: fiveZero 1.4s 2.6s forwards ease-out;
+}
+
+@-webkit-keyframes fiveZero {
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes fiveZero {
+  100% {
+    width: 50%;
+  }
+}
+
+.bar-main .photoshop-value-wrapper-animate .bar-title {
+  -webkit-animation: intoView 1s ease-out 1.4s forwards;
+          animation: intoView 1s ease-out 1.4s forwards;
+}
+
+.bar-main .photoshop-value-wrapper-animate .bar-value {
+  -webkit-animation: giveMeWidth 1s ease-out 1.4s forwards;
+          animation: giveMeWidth 1s ease-out 1.4s forwards;
+}
+
+.bar-main .photoshop-value-wrapper-animate .bar-value .bar-value-meter:before {
+  -webkit-animation: shine 1s forwards;
+          animation: shine 1s forwards;
+}
+
+.bar-main .photoshop-value-wrapper-animate .bar-value .photoshop-bar-value-animated {
+  -webkit-animation: fourZero 1.4s 2.8s forwards ease-out;
+          animation: fourZero 1.4s 2.8s forwards ease-out;
+}
+
+@-webkit-keyframes fourZero {
+  100% {
+    width: 40%;
+  }
+}
+
+@keyframes fourZero {
+  100% {
+    width: 40%;
+  }
+}
+
+@-webkit-keyframes fontPop {
+  0% {
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  50% {
+    left: 55%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  100% {
+    left: 50%;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes fontPop {
+  0% {
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  50% {
+    left: 55%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  100% {
+    left: 50%;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+main .contact-title-animate h1,
+main .about-title-animate h1 {
+  -webkit-animation: fontPop 1s forwards ease-in;
+          animation: fontPop 1s forwards ease-in;
+}
+
+@-webkit-keyframes intoViewPop {
+  30% {
+    -webkit-transform: scale(0.8, 1);
+            transform: scale(0.8, 1);
+  }
+  60% {
+    -webkit-transform: scale(1.4, 0);
+            transform: scale(1.4, 0);
+  }
+}
+
+@keyframes intoViewPop {
+  30% {
+    -webkit-transform: scale(0.8, 1);
+            transform: scale(0.8, 1);
+  }
+  60% {
+    -webkit-transform: scale(1.4, 0);
+            transform: scale(1.4, 0);
+  }
+}
+
+main .card-icon1-animate,
+main .card-icon2-animate,
+main .card-icon3-animate,
+main .card-icon4-animate,
+main .card-icon-animate {
+  -webkit-animation: intoViewPop 0.9s forwards;
+          animation: intoViewPop 0.9s forwards;
+}
+/*# sourceMappingURL=animation.css.map */

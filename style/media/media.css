@@ -1,0 +1,243 @@
+@media only screen and (orientation: landscape), only screen and (min-width: 786px) {
+  .myBackground {
+    background: -webkit-gradient(linear, left top, left bottom, from(#00000063), to(#00000000)), url("https://drive.google.com/file/d/1AXeVtlG_EwZ9FKSaK0VKIQjEt0na2FI8/view?usp=sharing") fixed;
+    background: linear-gradient(to bottom, #00000063, #00000000), url("https://drive.google.com/file/d/1AXeVtlG_EwZ9FKSaK0VKIQjEt0na2FI8/view?usp=sharing") fixed;
+    background-size: 100% 100%;
+  }
+  #CONTACT {
+    background: -webkit-gradient(linear, left top, left bottom, from(#00000063), to(#00000000)), url("https://drive.google.com/file/d/1EZ5u9XShs3nY_Us4tupvJ_aSJN6PqVyQ/view?usp=sharing") fixed;
+    background: linear-gradient(to bottom, #00000063, #00000000), url("https://drive.google.com/file/d/1EZ5u9XShs3nY_Us4tupvJ_aSJN6PqVyQ/view?usp=sharing") fixed;
+    background-size: 100% 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card-wrapper .card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 10px;
+  }
+  .about-me-and-languages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .about-me-and-languages .about-me {
+    padding: 0 20px;
+    -webkit-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .about-me-and-languages .languages {
+    width: 50%;
+    -webkit-transition: -webkit-box-flex 0.4s;
+    transition: -webkit-box-flex 0.4s;
+    transition: flex 0.4s;
+    transition: flex 0.4s, -webkit-box-flex 0.4s, -ms-flex 0.4s;
+  }
+  .about-me-and-languages .languages .bar-main {
+    border: 1px solid transparent;
+    margin: 10px 0;
+  }
+  .about-me-and-languages .languages .bar-main .title-value-wrapper .bar-title {
+    font-size: 80% !important;
+  }
+  .menuButton-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .card-wrapper {
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
+  }
+  .card-wrapper .card {
+    width: 40% !important;
+    margin-bottom: 10px;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
+  }
+  .about-me-and-languages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 3em 0;
+  }
+  .about-me-and-languages .about-me {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+    padding: 0 10px;
+    -webkit-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .about-me-and-languages .languages {
+    -webkit-box-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
+    -webkit-transition: -webkit-box-flex 0.4s;
+    transition: -webkit-box-flex 0.4s;
+    transition: flex 0.4s;
+    transition: flex 0.4s, -webkit-box-flex 0.4s, -ms-flex 0.4s;
+  }
+  .about-me-and-languages .languages .bar-title {
+    font-size: 70% !important;
+  }
+  .menuButton-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .bar-title {
+    font-size: 70% !important;
+  }
+  .card-wrapper {
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
+  }
+  .card-wrapper .card {
+    width: 50% !important;
+    margin: 10px;
+    margin-bottom: 10px;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
+  }
+  .menuButton-wrapper {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .about-me-and-languages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    overflow: scroll;
+  }
+  .about-me-and-languages .languages {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  body {
+    width: 100vw !important;
+  }
+  section.intro-wrapper .intro {
+    font-size: 10px !important;
+  }
+  section.intro-wrapper span.button {
+    font-size: 100% !important;
+  }
+  .bar-title {
+    font-size: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  section.intro-wrapper .intro {
+    font-size: 10px !important;
+  }
+  section.intro-wrapper span.button {
+    font-size: 100% !important;
+  }
+  .bar-title {
+    font-size: 50% !important;
+  }
+  #nav {
+    width: 100 !important;
+  }
+  #nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #nav ul * {
+    border: none;
+  }
+  #nav ul li.navLink-wrapper {
+    height: 0 !important;
+    overflow: hidden;
+  }
+  #nav ul li.navLink-wrapper * {
+    height: 0;
+    padding: 0;
+    margin: 0;
+  }
+  #nav ul li.navLink-wrapper-visible * {
+    height: auto;
+    padding: 13px;
+    margin: auto;
+  }
+  section.about #languages .about-me-and-languages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  section.about #languages .about-me-and-languages .languages {
+    width: 100%;
+  }
+  section.contact .contact-wrapper {
+    width: 100% !important;
+  }
+  section.contact .contact-wrapper .contact-fields {
+    padding: 10px;
+    width: 100% !important;
+  }
+  section.contact .contact-wrapper .contact-fields .form-wrapper {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (orientation: landscape), screen and (max-height: 700px) {
+  #languages {
+    height: auto !important;
+  }
+  #languages .about-me-and-languages {
+    height: auto !important;
+  }
+  section.contact {
+    height: auto !important;
+  }
+  section.contact .contact-wrapper {
+    height: auto !important;
+  }
+  section.contact .contact-wrapper .contact-fields {
+    height: auto !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */
